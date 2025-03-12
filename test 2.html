@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Grid</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    background-color: #6E6D6E;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+  }
+
+  .container > div {
+    background-color: #feefde;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div>Dog</div>
+  <div><img src="https://pngimg.com/d/dog_PNG2412.png" alt="Dog"></div>
+  <div>Very Intelligent</div>
+  <div>Tabby</div>  
+  <div>German Shepherd</div>
+  <div><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/dcopdcg-85a7601e-e7ca-4de8-96d6-28df58309247.png" alt="Cat"></div>
+  <div>Very Dumb & Lazy</div>
+  <div>Cat</div>  
+</div>
+
+</body>
+</html>
